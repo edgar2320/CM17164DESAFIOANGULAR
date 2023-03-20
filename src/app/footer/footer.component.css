@@ -1,0 +1,27 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer-contenido-detalle
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-contenido-detalle-imagen img{
+ height: 150px;
+}
+.footer-contenido-detalle h1{
+    color: gray;
+}
+.footer-contenido-detalle p{
+  color: rgb(187, 188, 190);
+}
+
+@media(max-width:600px){
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

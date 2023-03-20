@@ -1,0 +1,37 @@
+*{
+    margin: 5px;
+    
+
+}
+body{
+    display: grid;
+}
+
+
+
+
+@media(min-width:600px){
+    .header{
+         grid-area:header ;
+        }
+        .main{
+             grid-area: main;
+            
+        }
+        .aside{
+             grid-area: aside;
+            
+        }
+        .footer{
+             grid-area: footer;
+        }
+    body{
+        
+        grid-template: 
+        "header header"
+        "main aside"
+        "footer footer"/
+         auto 400px;
+    }
+  }
+ 

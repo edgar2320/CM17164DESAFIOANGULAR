@@ -1,0 +1,18 @@
+.aside{
+    background-color: rgb(1, 1, 23);
+    padding: 10px;
+}
+
+.aside-titulo h1{
+  color: yellow;
+ 
+}
+.aside-contenido h2{
+    color: white;
+   
+}
+
+.aside-contenido p{
+    color: rgb(196, 196, 196);   
+}
+

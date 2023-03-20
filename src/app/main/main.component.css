@@ -1,0 +1,44 @@
+.main{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.main-imagen{
+    background-image: url("../../assets/images/image-web-3-desktop.jpg");
+    height: 200px;
+    width: 99%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-contenido-detalle p{
+   color: rgb(191, 193, 195);
+   text-align: justify;
+}
+.main-contenido-detalle button{
+    border: none;
+    width: 200px;
+    color: white;
+    background: black;
+    padding: 15px;
+    transition: 1s ease all;
+}
+.main-contenido{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.main-contenido-detalle button:hover{
+    background: red;
+}
+
+@media(max-width:600px){
+    
+    .main-contenido{
+        display: flex;
+       flex-direction: column;
+    }
+    .main-imagen{
+        background-image: url("../../assets/images/image-web-3-mobile.jpg");
+    }
+}
